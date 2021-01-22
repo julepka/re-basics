@@ -59,7 +59,7 @@ $ npm install -g ios-deploy
 ## Getting an .ipa file
 
 There are 3 approaches I suggest:
-1. Get a decrypted .ipa easily through SSH. It is useful if you need an unprotected data like .plist file.
+1. Get a encrypted .ipa easily through SSH. It is useful if you need an unprotected data like .plist file.
 1. Do it manually using Frida. I still need to learn how to do this 😅
 1. Use ready-to-go scripts and tool (that is what I do). As of right now I recommend `bagbak` https://github.com/ChiChou/bagbak
 ```sh
