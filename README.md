@@ -66,6 +66,20 @@ There are 3 approaches I suggest:
 $ bagbak MyApplicationName -z
 ```
 
+### Troubleshooting bagbak
+
+Required node version: 14.x (my: 14.17.0)
+Required bagbak version: 2.0
+Installed Frida version: 14.2.18
+
+If there is a ploblem with missing Frida Gadget:
+Check current Frida version. Go to its Github Releases: https://github.com/frida/frida/releases and download Frida Gadget for iOS for the Frida version you have. Then, copy it to the required place.
+```
+frida --version
+mkdir -p ~/.cache/frida
+cp frida-gadget.dylib ~/.cache/frida/gadget-ios.dylib
+```
+
 ## Patching and signing
 
 You need a valid provisioning profile. You can create a test app in Xcode and run it on the device. It will create a profile for you and objection should be able to find it. To find you signing ID use:
