@@ -121,6 +121,10 @@ or
 ```sh
 $ applesign -m embedded.mobileprovision -i 42ABCDEF99 -c -o signed.ipa MyApplicationName-frida-codesigned.ipa
 ```
+The problen went away with the next setup:
+ios-deploy: 1.11.4
+applesign: 3.8.0
+objection: 1.11.0
 
 ## Using objection
 
