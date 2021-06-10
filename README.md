@@ -69,7 +69,9 @@ $ bagbak MyApplicationName -z
 ### Troubleshooting bagbak
 
 Required node version: 14.x (my: 14.17.0)
+
 Required bagbak version: 2.0
+
 Installed Frida version: 14.2.18
 
 If there is a ploblem with missing Frida Gadget:
@@ -122,8 +124,11 @@ or
 $ applesign -m embedded.mobileprovision -i 42ABCDEF99 -c -o signed.ipa MyApplicationName-frida-codesigned.ipa
 ```
 The problen went away with the next setup:
+
 ios-deploy: 1.11.4
+
 applesign: 3.8.0
+
 objection: 1.11.0
 
 ## Using objection
