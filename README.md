@@ -2,13 +2,13 @@
 
 This is my personal repository used for taking notes about iOS reverse engineering tools usage. As I work on solutions aiming to detect malicious activity I need to have a basic understanding of what reverse engineering looks like from the inside. And my goal here is to gather notes and structure my knowledge.
 
-This setup was used for iPhone 7 iOS 13.1.3 in Jan 2020
+This setup was used for iPhone 7 iOS 13.1.3, macOS Big Sur in July 2021
 
 ## Setting up an environment
 
 ### Jailbreak the device
 
-I've used checkra1n 0.12.2 beta: https://checkra.in/ 
+I've used checkra1n 0.12.4 beta: https://checkra.in/ 
 
 Alternatives: https://unc0ver.dev/ https://taurine.app/ https://canijailbreak.com/ 
 
