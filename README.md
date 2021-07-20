@@ -10,11 +10,11 @@ This setup was used for iPhone 7 iOS 13.1.3 in Jan 2020
 
 I've used checkra1n 0.12.2 beta: https://checkra.in/ 
 
-Alternatives: https://canijailbreak.com/ 
+Alternatives: https://unc0ver.dev/ https://taurine.app/ https://canijailbreak.com/ 
 
 ### Set up SSH
 
-Follow instructions in Cydia. Install Open SSH from Cydia. Connect to your device by its IP address like 
+Follow instructions in Cydia. Install OpenSSH from Cydia (any author will do). Connect to your device by its IP address like 
 ``` sh
 $ ssh root@192.168.1.100
 ```
