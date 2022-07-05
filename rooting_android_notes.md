@@ -1,3 +1,5 @@
+# Notes about rooting Xiaomi phone
+
 ## Devices
 
 ### Xiaomi Redme Note 9 with NFC (MerlinX)
@@ -24,7 +26,7 @@ There is an official tool for Windows. The unofficial macOS tool is XiaoMiTool v
 
 ### Step 2. Install Custom Recovery
 
-To install TWPR custom recovery that supports current device and Android version download the image https://twrp.me/xiaomi/xiaomimi10i.html
+To install TWRP custom recovery that supports current device and Android version download the image https://twrp.me/xiaomi/xiaomimi10i.html
 
 Connect the phone and enter the bootloader:
 ```
@@ -72,4 +74,13 @@ Reboot your phone and let it load regularly. It may not start from the first try
 
 Find Magisk app icon and tap it. It will download the full magisk app. If download doesn't start, install the `.apk` used in the previous step. The app should open after that.
 
-Download any root checker app from the Play Market to make sure everything works as expected. You can also test SafetyNet detection now: the device should not pass SafetyNet validation right now.
+Download any root checker app from the Play Market to make sure everything works as expected. You can also test SafetyNet detection: the device should not pass SafetyNet validation right now.
+
+## Toolset
+
+### Installing Xposed
+
+- Install Riru. Latest version didn't work, so I've used 25.4.4 https://github.com/RikkaApps/Riru/releases
+- Dowload latest EdXposed (v0.5.2.2) and instal via Magisk https://github.com/ElderDrivers/EdXposed/releases
+- Download EdXposed Manager (v4.6.2) and install https://github.com/ElderDrivers/EdXposedManager/releases
+- Reboot
